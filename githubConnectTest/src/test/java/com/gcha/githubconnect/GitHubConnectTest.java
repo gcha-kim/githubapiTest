@@ -44,7 +44,7 @@ public class GitHubConnectTest {
 	@BeforeAll
 	static void init() {
 		//token은 github에서 입력받으야함.
-		String token ="19a15989eb5c36dce617314d0ea11a95146e2f40";
+		String token ="";
 		githubConnect = new GitHubConnect(token);
 		
 	}
